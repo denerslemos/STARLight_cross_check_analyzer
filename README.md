@@ -15,11 +15,11 @@ The root output file includes:
 - **hiHF_minus_hist**: 1D histogram with transverse energy sum of HF tower only in HF- side (using centrality collection);
 - **hiHF_plus_vs_minus**: 2D histogram comparing hiHF_plus_hist and hiHF_minus_hist;
 - **trk_pt**: 1D histogram with transverse momentum ($p_{T}$) of the tracks in generalTracks;
-- **trk_eta**: 1D histogram with pseudorapidity ($\eta$) of the tracks in generalTracks;
-- **trk_phi**: 1D histogram with azhimutal distribution ($\phi$) of the tracks in generalTracks;
+- **trk_eta**: 1D histogram with pseudorapidity (&eta;) of the tracks in generalTracks;
+- **trk_phi**: 1D histogram with azhimutal distribution (&phi;) of the tracks in generalTracks;
 - **tower_pt**: 1D histogram with transverse momentum ($p_{T}$) of the HF in tower collection;
-- **tower_eta**: 1D histogram with pseudorapidity ($\eta$) of the HF in tower collection;
-- **tower_phi**: 1D histogram with azhimutal distribution ($\phi$) of the HF in tower collection;
+- **tower_eta**: 1D histogram with pseudorapidity (&eta;) of the HF in tower collection;
+- **tower_phi**: 1D histogram with azhimutal distribution (&phi;) of the HF in tower collection;
 
 
  h<sub>&theta;</sub>(x)
