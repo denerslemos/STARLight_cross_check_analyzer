@@ -1,6 +1,6 @@
 # STARLight_cross_check_analyzer
 
-Analyzer created to make cross-check histograms for STARLight MC since the Forest code is not yet available for CMSSW11X. I've included the .cc and .py used to make the histograms.
+Analyzer created to make cross-check histograms for STARLight MC since the Forest code is not yet available for CMSSW11X. Here you can find the .cc and .py used to make the histograms.
 
 The root output file includes:
 
@@ -19,7 +19,15 @@ The root output file includes:
 - **trk_phi**: 1D histogram with azhimutal distribution (&phi;) of the tracks in generalTracks;
 - **tower_pt**: 1D histogram with transverse momentum (p<sub>T</sub>) of the HF in tower collection;
 - **tower_eta**: 1D histogram with pseudorapidity (&eta;) of the HF in tower collection;
-- **tower_phi**: 1D histogram with azhimutal distribution (&phi) of the HF in tower collection;
+- **tower_phi**: 1D histogram with azhimutal distribution (&phi;) of the HF in tower collection;
+
+For the generalTracks, the 2018 PbPb tracking selection was applied, see:
+
+https://twiki.cern.ch/twiki/bin/view/CMS/HITracking2018PbPb 
+
+Examples of plots made by this code can be seing at:
+
+https://twiki.cern.ch/twiki/pub/CMS/HiCentrality2020/starlight_16_04.pdf
 
 
 
