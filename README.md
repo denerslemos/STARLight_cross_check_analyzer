@@ -22,5 +22,7 @@ The root output file includes:
 - **tower_phi**: 1D histogram with azhimutal distribution ($\phi$) of the HF in tower collection;
 
 
+ h<sub>&theta;</sub>(x)
+
 
 
